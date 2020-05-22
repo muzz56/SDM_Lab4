@@ -7,7 +7,7 @@
   line-height: 16px;
   color: #333333;
   font-size: 14px;
-  background: #ffffff;
+  background: antiquewhite;
   margin: 100px auto;
 }
 
@@ -20,15 +20,30 @@ form label, form input {
 form input {
   padding: 10px;
   border: solid 1px #BDC7D8;
+  border-radius: 5px;
+  margin-top: 1px;
 
 }
 
 .button {
-  background-color: #00BFFF;
-  border-color: #3ac162;
+  background-color: lightcoral;
   font-weight: bold;
+  border-radius: 5px;
+  box-shadow: gray 0px 4px;
+  transform: translateX(2px);
   padding: 12px 15px;
   color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+}
+
+.button:hover {background-color: maroon}
+
+.button:active {
+  background-color: maroon;
+  box-shadow: 0 4px grey;
+  transform: translateY(3px);
 }
 
 .errorMsg {
@@ -39,4 +54,10 @@ form input {
 .sucessMsg {
   color: #6B8E23;
   margin-bottom: 10px;
+}
+
+#main-registration-container{
+  background-image: url("blood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
