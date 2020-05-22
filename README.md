@@ -5,3 +5,7 @@ Neraj Obla KumarBabu
 
 Muzammil
 101281406
+
+### Clone the repository 
+
+#### `npm install` and then `npm start` 
